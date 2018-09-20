@@ -1,0 +1,7 @@
+for f in /home/alpha/*.png
+do
+  echo "Processing $f file..."
+  # take action on each file. $f store current file name
+  python dialEye.py meter $f
+done
+
